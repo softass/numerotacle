@@ -16,18 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="startup.png" translatesAutoresizingMaskIntoConstraints="NO" id="h92-j0-si6">
-                                <rect key="frame" x="132" y="83" width="337" height="433"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="startup.png" translatesAutoresizingMaskIntoConstraints="NO" id="h92-j0-si6">
+                                <rect key="frame" x="164" y="88" width="268" height="344"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="337" id="81e-yf-qoP"/>
                                     <constraint firstAttribute="height" constant="433" id="EfF-NW-qsQ"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="433" id="QDG-Z4-IDX"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="337" id="Y92-wx-NuZ"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="h92-j0-si6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Gr-Zm-0f3"/>
-                            <constraint firstItem="h92-j0-si6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="63" id="rcK-rZ-l1s"/>
+                            <constraint firstAttribute="centerX" secondItem="h92-j0-si6" secondAttribute="centerX" id="iR7-Hc-fJD"/>
+                            <constraint firstAttribute="centerY" secondItem="h92-j0-si6" secondAttribute="centerY" id="pnR-7Q-f0j"/>
                         </constraints>
                     </view>
                 </viewController>
