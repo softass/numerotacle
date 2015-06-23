@@ -13,16 +13,46 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T1p-eH-R5c">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <color key="barTintColor" red="1" green="0.88599165036744187" blue="0.074585447512547032" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="1" green="0.071775251810995533" blue="0.011590855193362004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="textShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="NumeRotaCle" id="aom-OB-obA">
+                                        <barButtonItem key="leftBarButtonItem" image="Icon-Small-30.png" id="R09-8L-Phw"/>
+                                        <barButtonItem key="rightBarButtonItem" image="Icon-Small-30.png" id="Yh5-JQ-l3X"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="iUQ-UA-hHe">
+                                <rect key="frame" x="0.0" y="692" width="600" height="44"/>
+                                <color key="backgroundColor" red="1" green="0.88599165040000005" blue="0.07458544751" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem image="Icon-Small-30.png" id="Cjj-ZC-sTo">
+                                        <color key="tintColor" red="0.12393326139999999" green="0.059788651060000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="PZr-VE-skr"/>
+                                    <barButtonItem image="Icon-Small-30.png" id="Ft7-8P-8Fk">
+                                        <color key="tintColor" red="0.12393326139999999" green="0.059788651060000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="1" green="0.88599165040000005" blue="0.07458544751" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="1" green="0.88599165040000005" blue="0.07458544751" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="startup.png" translatesAutoresizingMaskIntoConstraints="NO" id="h92-j0-si6">
-                                <rect key="frame" x="164" y="88" width="268" height="344"/>
+                                <rect key="frame" x="166" y="88" width="268" height="344"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="268" id="2Ou-Hk-Tm1"/>
                                     <constraint firstAttribute="width" constant="337" id="81e-yf-qoP"/>
                                     <constraint firstAttribute="height" constant="433" id="EfF-NW-qsQ"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="433" id="QDG-Z4-IDX"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="337" id="Y92-wx-NuZ"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="344" id="uen-Rh-6Wd"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -32,12 +62,14 @@
                             <constraint firstAttribute="centerY" secondItem="h92-j0-si6" secondAttribute="centerY" id="pnR-7Q-f0j"/>
                         </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
     <resources>
+        <image name="Icon-Small-30.png" width="30" height="30"/>
         <image name="startup.png" width="320" height="460"/>
     </resources>
 </document>

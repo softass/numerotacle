@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F676B8C4-2625-4185-A836-2D08C494DA06</string>
+	<key>IDESourceControlProjectName</key>
+	<string>numerotacle</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5C19191C2597D0237A3229C45436CD3BD5E5FDFD</key>
+		<string>https://github.com/softass/numerotacle.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>numerotacle.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5C19191C2597D0237A3229C45436CD3BD5E5FDFD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/softass/numerotacle.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5C19191C2597D0237A3229C45436CD3BD5E5FDFD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5C19191C2597D0237A3229C45436CD3BD5E5FDFD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>numerotacle</string>
+		</dict>
+	</array>
+</dict>
+</plist>
